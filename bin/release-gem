@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require_relative "../lib/kube_kit/version"
+require_relative "../lib/kube/kit/version"
 
-local_version = KubeKit::VERSION
+local_version = Kube::Kit::VERSION
 gem_name = "kube_kit"
 gemspec = "kube_kit.gemspec"
 

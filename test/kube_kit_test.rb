@@ -4,6 +4,6 @@ require "test_helper"
 
 class KubeKitTest < Minitest::Test
   def test_version
-    refute_nil KubeKit::VERSION
+    refute_nil Kube::Kit::VERSION
   end
 end

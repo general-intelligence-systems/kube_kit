@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require_relative "../lib/kube_kit/version"
+require_relative "../lib/kube/kit/version"
 
-version = KubeKit::VERSION
+version = Kube::Kit::VERSION
 tag = "v#{version}"
 
 existing = `git tag -l #{tag}`.strip
