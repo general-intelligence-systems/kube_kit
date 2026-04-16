@@ -2,8 +2,8 @@
 
 require "test_helper"
 
-class GemKitTest < Minitest::Test
+class KubeKitTest < Minitest::Test
   def test_version
-    refute_nil GemKit::VERSION
+    refute_nil KubeKit::VERSION
   end
 end
