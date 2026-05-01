@@ -7,13 +7,10 @@ module Kube
   end
 end
 
-if __FILE__ == $0
-  require "bundler/setup"
-  require "minitest/autorun"
+test do
+  require_relative "../../setup"
 
-  class KubeKitTest < Minitest::Test
-    def test_version
-      refute_nil Kube::Kit::VERSION
-    end
+  it "has a version" do
+    Kube::Kit::VERSION.should.not.be.nil
   end
 end
