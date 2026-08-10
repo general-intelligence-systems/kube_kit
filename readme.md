@@ -1,5 +1,7 @@
 # kube_kit
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/general-intelligence-systems/kube_kit)
+
 Generators for [kube_cluster](https://github.com/general-intelligence-systems/kube_cluster) projects.
 
 ## Usage
